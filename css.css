@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.first{
+    height: 100vh;
+    width: 100%;
+    background-image: url("dsf.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:0px 0px 20px 0px;
+    
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:45px 8% 0px 8%;
+    
+}
+.hero{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor:pointer;
+
+}
+.lio{
+    color: #f9004c;
+    transition: transform .4s;
+}
+.lio:hover{
+    transform: scale(1.2);
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 25px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+    
+}
+  
+#content{
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%)
+}
+#h1{
+    color:white;
+    margin:20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color:white;
+    font-size:25px;
+    margin-bottom: 50px;
+}
+#h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size:20px; 
+}
+
+.newslatter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: 3px ;
+}
+#Education{
+    height:100vh;
+    width: 100%;
+    background-color: white;
+    text-align:center;
+    align-items: center;
+    color: black;
+    margin: 40px 0px 20px 0px;
+    
+}
+img{
+    height:120px;
+    width:120px;
+    margin-top:20px;
+}
+h4{
+    margin: 10px 0px 0px 0px;
+}
+#skill{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top:40px;
+    height:100vh;
+    width:100%;
+    
+}
+#project{
+    background-color:white;
+    color: black;
+    text-align:center;
+    align-items:center;
+    padding-top:40px;
+    line-height: 130px;
+    height: 100vh;
+    width:100%;
+}
+.proj{
+    font-size: 60px;
+}
+#cont{
+    background-color: black;
+    color:white;
+    text-align: center;
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+    height:20vh;
+    width:100%;
+    
+}
+p.typ{
+    border-style:double;
+    border-color: black;
+    
+    
+}
